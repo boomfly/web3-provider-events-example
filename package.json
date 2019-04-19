@@ -1,0 +1,22 @@
+{
+  "name": "web3-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=web3-test:* nodemon --ignore db/ dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "parcel watch -t node --no-cache --out-dir dist/ src/index.coffee"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.4.1",
+    "nodemon": "^1.18.11",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.52"
+  }
+}
